@@ -1,0 +1,93 @@
+/*Disposition du body*/
+.page {
+    display: flex;
+    flex-flow: row;
+
+    justify-content: center;
+
+    margin-left: 350px;
+}
+
+.post_feed {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 25px;
+    width: 1040px;
+    height: 1001px;
+}
+
+.left-feed {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 25px;
+    background-color:#FBFBFB;
+
+    margin-left: 150px;
+    width: 369.5px;
+}
+
+/* Style des posts */
+.post {
+    display: flex;
+    flex-flow: row;
+
+    column-gap: 15px;
+    align-items: center;
+
+    width: 1040px;
+    height: 208px;
+}
+
+.post_date-publi {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 23px;
+    color: #00000099;
+}
+.post_desc {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align:justify;
+}
+
+.post_titre {
+    font-family: "Cardo";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+}
+
+/* Style du feed gauche */
+
+.left-feed_categorie_liste {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: justify;
+    color: #9F9F9F;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.left-feed_categorie_titre {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.separator {
+    background-color: #C4C4C4;
+    border: 0px;
+    height: 1px;
+    width: 281px;
+}
